@@ -63,9 +63,9 @@ nav a:hover {
 
 /* --- SECCIÓN PRINCIPAL --- */
 section {
-    padding: 60px 20px;
+    padding: 20px 20px;
     text-align: center;
-   background-color: #2d264a; /* Color sólido oscuro que combina con el estilo */
+    background-color: #2d264a; /* Color sólido oscuro que combina con el estilo */
     margin: 40px auto;
     border-radius: 16px;
     max-width: 900px;
@@ -84,6 +84,28 @@ section p {
     max-width: 800px;
     margin: 0 auto;
 }
+
+/*Seccion Canciones*/
+.galeria-canciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.cancion {
+  width: 120px;
+  text-align: center;
+}
+
+.cancion img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
 /* Contacto */
 .contact {
     background-color: #1e1e1e;
